@@ -1,7 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: PC
- * Date: 04.01.2019.
- * Time: 13.48
- */
+
+return [
+    'default'=>'sqlite',
+    'connections' => [
+
+        'sqlite' => [
+            'driver' => 'sqlite',
+            'database' => ':memory:',
+            'prefix' => '',
+        ],
+        ]
+];

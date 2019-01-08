@@ -9,6 +9,7 @@
         "barryvdh/laravel-ide-helper": "^2.5",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
+        "laravel/homestead": "^7.20",
         "laravel/tinker": "^1.0"
     },
     "require-dev": {
@@ -16,7 +17,6 @@
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
         "laravel/dusk": "^4.0",
-        "laravel/homestead": "^7.19",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.0"
@@ -28,7 +28,10 @@
         ],
         "psr-4": {
             "App\\": "app/"
-        }
+        },
+        "files": [
+            "tests/utilities/test_helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

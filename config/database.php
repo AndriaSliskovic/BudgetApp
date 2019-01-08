@@ -123,5 +123,16 @@ return [
         ],
 
     ],
+    /*
+    |---------------------
+    |Podesavanje inmemory baze za testiranje
+    |---------------------
+    */
+
+    'sqlite_testing' => [
+        'driver'   => 'sqlite',
+        'database' => ':memory:',
+        'prefix'   => '',
+    ]
 
 ];
